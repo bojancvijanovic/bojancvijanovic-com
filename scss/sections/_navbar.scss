@@ -1,0 +1,32 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+
+.menu {
+    @include gradient;
+
+    li {
+        padding: 0 0.7rem;
+    }
+    a {
+       color: $white;
+        text-transform: capitalize;
+        font-weight: 600;
+
+        
+    }
+
+}
+
+.main-contact-btn {
+    color: $primary !important;
+    &:hover {
+        color: $white !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu a {
+        margin-top: 1rem !important;
+    }
+    
+}
