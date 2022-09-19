@@ -43,17 +43,3 @@
 }
 
 
-#lang-selector {
-    @include gradient;
-    color: $white;
-
-    span {
-        background-color: rgba($my-blue, 0.6);
-    }
-
-    &:hover {
-        background: $white;
-        color: $primary !important;
-    }
-
-}
