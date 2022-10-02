@@ -1,7 +1,7 @@
 //My theme colors:
 
-$my-blue: #0a1f44;
-$navy: #106cd6;
+$my-blue: #0f316b;
+$navy: #156bd3;
 $my-lighter-blue: #97CADB;
 $my-orange: #d67a10;
 $footer: #151414;
@@ -20,11 +20,12 @@ $gray-900: #212529;
 $black: #000;
 
 //primary and secondary buttons overrides
-$primary: $navy;
-$secondary: $my-lighter-blue;
+//$primary: $navy;
+//$secondary: $my-lighter-blue;
 
-
-//accordion overrides 
+$primary: $my-blue;
+$secondary: $navy;
+  //accordion overrides
 $accordion-icon-color: $primary;
 $accordion-icon-active-color: $secondary;
 
