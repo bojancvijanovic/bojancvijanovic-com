@@ -8,11 +8,7 @@
             spinningLogo.classList.remove('logo-animate');
         }
 
-        if (spinningLogo.classList.contains('logo-animate')) {
-            removeSpinningClass();
-            setTimeout(addSpinningClass, 50);
-            setTimeout(removeSpinningClass, 1000);
-        } else {
+        if (!spinningLogo.classList.contains('logo-animate')) {
             addSpinningClass();
             setTimeout(removeSpinningClass, 1000)
         }
