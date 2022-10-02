@@ -10938,6 +10938,11 @@ textarea.form-control-lg {
   margin-bottom: -1px;
 }
 
+nav {
+  z-index: 999 !important;
+  transform: rotateY(0deg) !important;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(15, 49, 107, 0.95), rgba(21, 107, 211, 0.95));
   z-index: 100;
