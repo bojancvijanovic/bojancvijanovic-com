@@ -10887,8 +10887,16 @@ textarea.form-control-lg {
     padding-bottom: 100px;
   }
 }
+.intro-section .big-logo-box {
+  margin: 4rem;
+}
 .intro-section .big-logo-box img {
   width: 20rem;
+}
+@media screen and (max-width: 767px) {
+  .intro-section .big-logo-box img {
+    width: 100% !important;
+  }
 }
 .intro-section .big-logo-box .logo-animate {
   animation: animate 0.8s linear;
