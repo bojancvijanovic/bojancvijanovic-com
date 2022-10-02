@@ -10898,8 +10898,28 @@ textarea.form-control-lg {
     width: 100% !important;
   }
 }
+.intro-section .big-logo-box .logo-move-slowly {
+  animation: moveSlowly 4s infinite;
+}
+@keyframes moveSlowly {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(20deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateY(-20deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
 .intro-section .big-logo-box .logo-animate {
-  animation: animate 0.8s linear;
+  animation: animate 1s linear;
   perspective: 30rem;
 }
 @keyframes animate {
