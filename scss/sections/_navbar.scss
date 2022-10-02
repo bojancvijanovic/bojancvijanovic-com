@@ -1,13 +1,9 @@
 @use'../custom' as *;
 @use'../components/mixins' as *;
 
-nav {
-    z-index: 999 !important;
-    transform: rotateY(0deg) !important;
-}
 .menu {
     @include gradient;
-    z-index: 100;
+
     li {
         padding: 0 0.7rem;
     }
