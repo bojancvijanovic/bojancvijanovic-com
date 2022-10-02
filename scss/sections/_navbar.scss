@@ -7,20 +7,22 @@
     li {
         padding: 0 0.7rem;
     }
+
     a {
-       color: $white;
+        color: $white;
         text-transform: capitalize;
         font-weight: 600;
 
-        
+
     }
 
 }
 
 .main-contact-btn {
-    color: $primary !important;
+    color: $primary  !important;
+
     &:hover {
-        color: $white !important;
+        color: $white  !important;
     }
 }
 
@@ -28,5 +30,24 @@
     .menu a {
         margin-top: 1rem !important;
     }
-    
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.progress-container {
+    background-color: rgba(150, 150, 150, 0.6);
+    height: 10px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #2196f3;
+    height: 10px;
+    width: 0%;
 }
