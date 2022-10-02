@@ -10891,6 +10891,7 @@ textarea.form-control-lg {
   margin: 4rem;
 }
 .intro-section .big-logo-box img {
+  position: relative;
   width: 20rem;
 }
 @media screen and (max-width: 767px) {
@@ -10935,10 +10936,6 @@ textarea.form-control-lg {
 }
 .intro-section svg {
   margin-bottom: -1px;
-}
-
-nav {
-  z-index: 1;
 }
 
 .menu {
