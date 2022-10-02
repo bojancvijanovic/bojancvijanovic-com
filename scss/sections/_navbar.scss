@@ -3,7 +3,7 @@
 
 .menu {
     @include gradient;
-
+    z-index: 100;
     li {
         padding: 0 0.7rem;
     }
