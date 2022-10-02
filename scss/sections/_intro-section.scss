@@ -12,13 +12,17 @@
       padding-bottom: 100px;
     }
   }
-
   .big-logo-box {
-
+  margin: 4rem;
     img {
       width: 20rem;
     }
+    @media screen and (max-width: 767px) {
+      img {
+        width: 100% !important;
+      }
 
+    }
     .logo-animate {
       animation: animate .8s linear;
       perspective: 30rem;
