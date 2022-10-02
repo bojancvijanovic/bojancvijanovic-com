@@ -1,25 +1,21 @@
 (() => {
     const spinningLogo = document.getElementById('logo-spin');
     const spin = () => {
-
-
-
-        if (spinningLogo.classList.contains('logo-animate')) {
-            spinningLogo.classList.remove('logo-animate');
-            const addSpinningClass = () => {
-                spinningLogo.classList.add('logo-animate');
-            }
-            setTimeout(addSpinningClass, 50);
-        } else {
+        const addSpinningClass = () => {
             spinningLogo.classList.add('logo-animate');
-            const removeSpinningClass = () => {
-                spinningLogo.classList.remove('logo-animate');
-            }
-            setTimeout(removeSpinningClass, 1000)
+        }
+        const removeSpinningClass = () => {
+            spinningLogo.classList.remove('logo-animate');
         }
 
-
-
+        if (spinningLogo.classList.contains('logo-animate')) {
+            removeSpinningClass();
+            setTimeout(addSpinningClass, 50);
+            setTimeout(removeSpinningClass, 1000);
+        } else {
+            addSpinningClass();
+            setTimeout(removeSpinningClass, 1000)
+        }
     }
     spinningLogo.addEventListener('click', spin);
 })();
