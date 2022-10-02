@@ -10939,6 +10939,7 @@ textarea.form-control-lg {
 
 .menu {
   background: linear-gradient(to right, rgba(15, 49, 107, 0.95), rgba(21, 107, 211, 0.95));
+  z-index: 100;
 }
 .menu li {
   padding: 0 0.7rem;
