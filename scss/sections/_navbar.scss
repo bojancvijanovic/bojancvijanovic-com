@@ -1,8 +1,5 @@
 @use'../custom' as *;
 @use'../components/mixins' as *;
-nav {
-    z-index: 1;
-}
 .menu {
     @include gradient;
     z-index: 100;
