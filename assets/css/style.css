@@ -10891,6 +10891,7 @@ textarea.form-control-lg {
   margin: 4rem;
 }
 .intro-section .big-logo-box img {
+  z-index: 1;
   position: relative;
   width: 20rem;
 }
