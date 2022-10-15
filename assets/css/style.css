@@ -11077,14 +11077,9 @@ textarea.form-control-lg {
 
 .motivation {
   background: linear-gradient(to right, rgba(15, 49, 107, 0.95), rgba(21, 107, 211, 0.95));
-  padding: 5rem 0 8rem 0rem;
+  padding: 5rem 0 0rem 0rem;
   width: 100%;
   height: 100%;
-}
-@media screen and (min-height: 900px) {
-  .motivation .container {
-    padding-bottom: 100px;
-  }
 }
 .motivation h1 {
   color: #fff;
@@ -11104,11 +11099,15 @@ textarea.form-control-lg {
   font-size: 1.8rem;
   color: #fff;
   padding-bottom: 2vw;
+  font-style: italic;
 }
 .motivation .btn-rounded {
   padding: 0.9357rem 1.25rem 0.9357rem 1.25rem;
   margin-top: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+.motivation svg {
+  margin-bottom: -1px;
 }
 
 /*# sourceMappingURL=style.css.map */
