@@ -45,6 +45,9 @@
                         <a class="nav-link" href="#myskills">Skills</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#mymotivation">Motivation</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#mytimeline">Timeline</a>
                     </li>
                     <li class="nav-item">
@@ -52,6 +55,11 @@
                     </li>
                 </ul>
 
+            </div>
+        </div>
+        <div class="header">
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
             </div>
         </div>
     </nav>
@@ -88,7 +96,7 @@
 
                     <div class="big-logo-box">
 
-                            <img id="logo-spin" src="images/arts/web-dev.svg" class="img-fluid" alt="">
+                        <img id="logo-spin" src="images/arts/web-dev.svg" class="img-fluid" alt="">
                     </div>
 
                 </div>
@@ -305,7 +313,37 @@
 
     </section>
 
+    <div id="mymotivation"></div>
+    <section id="motivation" class="motivation">
+        <div id="quote-box" class="container motivation-container text-center">
+            <h1 class="display-2">Don't forget: motivation is the key!</h1>
+            <p class="text-center motivation-heading">Here are some inspirational quotes that I like, and that might
+                inspire you.</p>
+            <div class="container   ">
+                <div class="container border rounded">
+                    <p id="text" class="text-center motivation-quote">“Opportunities don't happen, you create them.”
+                    </p>
+                    <p id="author" class="text-right motivation-author font-italic">Chris Grosser</p>
 
+                </div>
+                <div class="d-flex justify-content-center"></div>
+                <button id="new-quote" class="rounded-pill btn-rounded">New quote</button>
+            </div>
+
+
+        </div>
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 160" version="1.1"
+             xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(243, 106, 62, 1)" offset="0%" />
+                    <stop stop-color="rgba(255, 179, 11, 1)" offset="100%" />
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="#ffffff"
+                  d="M0,48L26.7,56C53.3,64,107,80,160,93.3C213.3,107,267,117,320,125.3C373.3,133,427,139,480,136C533.3,133,587,123,640,109.3C693.3,96,747,80,800,77.3C853.3,75,907,85,960,93.3C1013.3,101,1067,107,1120,101.3C1173.3,96,1227,80,1280,77.3C1333.3,75,1387,85,1440,98.7C1493.3,112,1547,128,1600,130.7C1653.3,133,1707,123,1760,114.7C1813.3,107,1867,101,1920,106.7C1973.3,112,2027,128,2080,117.3C2133.3,107,2187,69,2240,50.7C2293.3,32,2347,32,2400,29.3C2453.3,27,2507,21,2560,26.7C2613.3,32,2667,48,2720,53.3C2773.3,59,2827,53,2880,45.3C2933.3,37,2987,27,3040,32C3093.3,37,3147,59,3200,61.3C3253.3,64,3307,48,3360,53.3C3413.3,59,3467,85,3520,80C3573.3,75,3627,37,3680,42.7C3733.3,48,3787,96,3813,120L3840,144L3840,160L3813.3,160C3786.7,160,3733,160,3680,160C3626.7,160,3573,160,3520,160C3466.7,160,3413,160,3360,160C3306.7,160,3253,160,3200,160C3146.7,160,3093,160,3040,160C2986.7,160,2933,160,2880,160C2826.7,160,2773,160,2720,160C2666.7,160,2613,160,2560,160C2506.7,160,2453,160,2400,160C2346.7,160,2293,160,2240,160C2186.7,160,2133,160,2080,160C2026.7,160,1973,160,1920,160C1866.7,160,1813,160,1760,160C1706.7,160,1653,160,1600,160C1546.7,160,1493,160,1440,160C1386.7,160,1333,160,1280,160C1226.7,160,1173,160,1120,160C1066.7,160,1013,160,960,160C906.7,160,853,160,800,160C746.7,160,693,160,640,160C586.7,160,533,160,480,160C426.7,160,373,160,320,160C266.7,160,213,160,160,160C106.7,160,53,160,27,160L0,160Z" />
+        </svg>
+    </section>
 
     <div id="mytimeline"></div>
     <section id="timeline" class="timeline">
@@ -475,7 +513,7 @@
                 <div class="col-12 col-lg-6 gradient shadow p-3">
                     <div class="cta-info w-100">
                         <h4 class="display-4 fw-bold">
-                            We're just a few clicks away.  
+                            We're just a few clicks away.
                         </h4>
                         <p class="lh-lg">
                             I'll be happy to answer your questions or schedule a meeting where we can talk more!
