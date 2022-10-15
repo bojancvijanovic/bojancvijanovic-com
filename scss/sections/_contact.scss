@@ -31,9 +31,18 @@
 
         li {
             font-size: 1.4rem;
+            margin-top: 1.4rem;
 
             i {
                 margin-right: 1rem;
+
+            }
+
+            a {
+                margin-right: 1rem;
+                color: white !important;
+                text-decoration: unset !important;
+
             }
         }
     }
@@ -46,6 +55,14 @@
     }
     .cta-info__list li {
         font-size: 0.8rem !important;
+
+        a {
+            font-size: 0.8rem !important;
+            margin-right: 1rem;
+            color: white !important;
+            text-decoration: unset !important;
+
+        }
     }
     
 }

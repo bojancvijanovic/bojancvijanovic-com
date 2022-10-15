@@ -11032,9 +11032,15 @@ textarea.form-control-lg {
 }
 .cta-info__list li {
   font-size: 1.4rem;
+  margin-top: 1.4rem;
 }
 .cta-info__list li i {
   margin-right: 1rem;
+}
+.cta-info__list li a {
+  margin-right: 1rem;
+  color: white !important;
+  text-decoration: unset !important;
 }
 
 @media screen and (max-width: 470px) {
@@ -11043,6 +11049,12 @@ textarea.form-control-lg {
   }
   .cta-info__list li {
     font-size: 0.8rem !important;
+  }
+  .cta-info__list li a {
+    font-size: 0.8rem !important;
+    margin-right: 1rem;
+    color: white !important;
+    text-decoration: unset !important;
   }
 }
 .form {
