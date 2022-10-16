@@ -1,0 +1,77 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.img-background {
+  background-image: url('/images/apps/todo/main-background.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  height: 100%;
+  min-height: 90vh;
+
+}
+
+.todo-section {
+
+  @include gradient;
+  padding: 10rem 0 0rem 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 90vh;
+
+  @media screen and (min-height: 900px) {
+    .container {
+      padding-bottom: 100px;
+    }
+  }
+
+  form {
+    padding-top: 2rem;
+
+    .form-control {
+      margin-bottom: 1rem;
+      display: inline;
+      width: 75%;
+      max-width: 75%;
+      margin-right: 1rem;
+    }
+
+    .add-button {
+      width: 20%;
+    }
+
+
+
+
+
+  }
+
+  ul {
+    list-style: none;
+    padding-top: 1rem;
+    padding-left: 0;
+    width: 95%;
+    max-width: 95%;
+
+    li.checked span {
+      text-decoration: line-through;
+    }
+
+    li {
+
+        span {
+        padding-left: 1rem;
+      }
+
+      button {
+        padding: 2px 7px 2px 7px;
+      }
+    }
+  }
+
+}
+
+.todo-page .footer {
+  padding-top: 0 !important;
+}

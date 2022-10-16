@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.svg" rel="icon" type="image/svg+xml">
+    <title>To Do App</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="todo-page">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <svg fill="none" height="48" viewBox="0 0 49 48" width="49" xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="M46.3455 27.0968H44.7102C43.6496 27.0968 42.7313 27.8014 42.446 28.8083C40.3205 36.3101 33.3428 41.8065 25.0499 41.8065C15.0679 41.8065 6.98811 33.8424 6.98811 24C6.98811 14.1592 15.0663 6.19359 25.0499 6.19359C33.3416 6.19359 40.3203 11.689 42.446 19.1915C42.7313 20.1986 43.6498 20.9033 44.7105 20.9033H46.3447C47.8867 20.9033 49.0101 19.4677 48.6254 17.9956C45.911 7.60678 36.3182 -0.0585979 24.9191 0.00033753C11.4659 0.0700149 0.677495 10.7884 0.705864 24.0517C0.734134 37.2828 11.6225 48 25.0499 48C36.4006 48 45.9366 40.3413 48.6318 29.9796C49.0122 28.5172 47.8768 27.0968 46.3455 27.0968V27.0968Z"
+                        fill="white"/>
+                <path
+                        d="M30.74 23.112C32.156 23.376 33.32 24.084 34.232 25.236C35.144 26.388 35.6 27.708 35.6 29.196C35.6 30.54 35.264 31.728 34.592 32.76C33.944 33.768 32.996 34.56 31.748 35.136C30.5 35.712 29.024 36 27.32 36H16.484V10.872H26.852C28.556 10.872 30.02 11.148 31.244 11.7C32.492 12.252 33.428 13.02 34.052 14.004C34.7 14.988 35.024 16.104 35.024 17.352C35.024 18.816 34.628 20.04 33.836 21.024C33.068 22.008 32.036 22.704 30.74 23.112ZM21.524 21.24H26.132C27.332 21.24 28.256 20.976 28.904 20.448C29.552 19.896 29.876 19.116 29.876 18.108C29.876 17.1 29.552 16.32 28.904 15.768C28.256 15.216 27.332 14.94 26.132 14.94H21.524V21.24ZM26.6 31.896C27.824 31.896 28.772 31.608 29.444 31.032C30.14 30.456 30.488 29.64 30.488 28.584C30.488 27.504 30.128 26.664 29.408 26.064C28.688 25.44 27.716 25.128 26.492 25.128H21.524V31.896H26.6Z"
+                        fill="white"/>
+            </svg>
+
+        </a>
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#contactme">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+</nav>
+
+<div class="img-background">
+<section class="todo-section" id="todo-section">
+    <div class="container d-flex align-items-center justify-content-center">
+
+
+
+            <div class="text-white">
+                <h1>Jot down your daily tasks!</h1>
+                <form class="todo-form">
+                    <input class="todo-input form-control shadow" placeholder="Add a task!" type="text">
+                    <button class="add-button btn btn-primary rounded-pill" type="submit">Add</button>
+                </form>
+
+                <ul class="todo-items">
+
+                </ul>
+
+            </div>
+
+
+
+    </div>
+</section>
+</div>
+
+<div class="footer">
+    <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-12">
+                    <div class="footer-bottom__copyright">
+                        © Copyright 2022 <a href="#">Bojan Cvijanovic</a> | Created by <a
+                            href="mailto:contact@bojancvijanovic.com" target="_blank">Bojan Cvijanovic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/todo.js"></script>
+
+
+</body>
+
+</html>
